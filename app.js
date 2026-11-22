@@ -239,7 +239,7 @@ const bank = {
 "The campaign looks as fresh as the drinks themselves.",
 "Felix is such a natural fit for this bright brand."
 ],ends:['Freshness has never looked this good.','A delicious match full of good energy.','Felix makes every moment brighter.','This campaign is pure refreshment.','So fresh, colorful, and inviting.','A lovely collaboration.','The perfect mood for a fresh drink.','Felix brings the sunshine.','A refreshing treat worth trying.','Such a bright brand moment.','Every detail looks delicious.','The energy is absolutely lovely.','A perfect pairing of flavor and charm.','This makes me smile.','Fresh flavors, fresh inspiration.','A campaign full of joy.','Felix makes the brand shine.','Simply refreshing.','A great match from the first look.','So vibrant and full of life.','The drinks look amazing.','Cheers to this collaboration.' ]},
-'Hanbok Wave': {tag:'#FelixxHanbokWave',tone:'Korean heritage',lines:[
+'Hanbok Wave': {tag:'#Felix_HanbokWave #Felix_MarieClaireKorea',tone:'Korean heritage',lines:[
 "Felix represents Korean culture on the international stage with remarkable grace.",
 "His presence brings a beautiful new perspective to the timeless elegance of hanbok.",
 "He honors Korean heritage while showing how tradition can speak to the modern world.",
