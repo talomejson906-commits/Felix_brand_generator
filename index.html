@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111"><title>Felix from Australia — Генератор комментариев для брендов</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar"><div class="brandmark">FA<span>®</span></div><div class="topnote">FAN PROJECT · COMMENT TOOL</div></header>
+    <section class="hero">
+      <p class="eyebrow">FELIX FROM AUSTRALIA</p>
+      <h1>Генератор комментариев<br><i>для брендов</i></h1>
+      <p class="intro">Выбирай бренд, генерируй комментарии на английском и копируй их одним нажатием.</p>
+      <div class="stats"><div><strong id="totalCount">130,000+</strong><span>вариантов</span></div><div><strong>13</strong><span>категорий</span></div><div><strong>EN</strong><span>язык комментариев</span></div></div>
+    </section>
+    <section class="workspace">
+      <div class="section-head"><div><p class="eyebrow">01 / CATEGORY</p><h2>Выбери бренд</h2></div><span class="required-note">Хештег включен в каждый комментарий</span></div>
+      <div class="category-grid" id="categoryGrid" aria-label="Категории брендов"></div>
+      <div class="generator-panel">
+        <div class="panel-heading"><div><p class="eyebrow">02 / GENERATOR</p><h2 id="activeTitle">Louis Vuitton</h2></div><span class="count-pill" id="availableCount">10 648+ вариантов</span></div>
+        <div class="comment-card"><div class="comment-label"><span>ВАШ КОММЕНТАРИЙ</span><span id="counter">#001</span></div><p id="commentOutput" aria-live="polite">Felix brings an unmistakable sense of elegance to Louis Vuitton. His presence makes every fashion moment feel iconic. #FelixxLouisVuitton</p></div>
+        <div class="actions"><button class="btn btn-primary" id="generateBtn"><span>↻</span> Сгенерировать</button><button class="btn btn-secondary" id="copyBtn"><span>▢</span> Копировать</button></div>
+        <div class="batch-tools"><label for="batchSize">Количество комментариев</label><div class="batch-row"><select id="batchSize"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option><option value="500">500</option><option value="1000">1000</option></select><button class="btn btn-outline" id="batchBtn">Создать подборку и скопировать</button></div><p class="hint">Каждый комментарий в подборке будет уникальным. Комментарии разделяются пустой строкой.</p></div>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+    <footer><span>FELIX FROM AUSTRALIA</span><span>MADE FOR STAY · 2026</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
